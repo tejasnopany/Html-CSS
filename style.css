@@ -8,6 +8,9 @@
 body{
     font-family: 'JetBrains Mono', monospace;
 }
+hr{
+    margin:2rem 0rem;
+}
 .container{
     padding-left: 1rem ;
     padding-right: 1rem;
@@ -30,4 +33,15 @@ margin: auto;
 .secondary-link{
     color: var(--secondary-color);
     border:solid var(--primary-color) 1px;
+}
+
+/** Lists **/
+.list-non-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+
+    display: inline;
+    padding:0rem 0.5rem;
 }
