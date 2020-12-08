@@ -3,3 +3,11 @@
 body{
     font-family: 'JetBrains Mono', monospace;
 }
+.container{
+    padding-left: 1rem ;
+    padding-right: 1rem;
+}
+.normal{
+max-width: 600px;
+margin: auto;
+}
