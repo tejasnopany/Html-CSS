@@ -2,14 +2,16 @@
 
 :root{
     --primary-color:#10B981;
+
     --secondary-color:#065F46;
+    --gray:gray;
 }
 
 body{
     font-family: 'JetBrains Mono', monospace;
 }
 hr{
-    margin:2rem 0rem;
+    margin:2rem  0rem;
 }
 .container{
     padding-left: 1rem ;
@@ -45,7 +47,6 @@ margin: auto;
     display: inline;
     padding:0rem 0.5rem;
 }
-
 /** navigation **/
 
 .navigation {
@@ -69,4 +70,18 @@ margin: auto;
 
 .navigation .link-active {
     font-weight: bold;
+}
+/** Header **/
+.hero{
+    padding:2rem 0rem;
+}
+.hero-image{
+    max-width: 350px;
+    display: block;
+    margin:auto; 
+}
+.hero .hero-heading{
+    font-size: 2rem;
+    padding:0.5rem;
+    color:var(--gray);
 }
