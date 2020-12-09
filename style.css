@@ -5,6 +5,8 @@
 
     --secondary-color:#065F46;
     --gray:gray;
+    --white:white;
+    --offwhite:#D1FAE5;
 }
 
 body{
@@ -84,4 +86,18 @@ margin: auto;
     font-size: 2rem;
     padding:0.5rem;
     color:var(--gray);
+}
+
+/** Section **/
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--offwhite);
 }
