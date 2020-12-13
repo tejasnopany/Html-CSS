@@ -45,7 +45,6 @@ margin: auto;
 }
 
 .list-item-inline{
-
     display: inline;
     padding:0rem 0.5rem;
 }
@@ -124,4 +123,7 @@ margin: auto;
 
 .footer ul {
     padding-inline-start: 0px;
+}
+.footer a{
+    font-weight: bolder;
 }
